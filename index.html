@@ -4,23 +4,24 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Tray Roberts">
-        <title>CE Truffaut | Web Developer</title>
+        <title>TD Roberts | SOC analyst</title>
         <link href="css/style.css" rel="stylesheet" type="text/css">
     </head>
     
 <!-- Add an id attribute with a value of "top" to the opening body tag. -->
     
-    <body>
+    <body id="top">
         
 <!-- PAGE HEADER -->        
         <!-- Wrap the top level heading in a header element -->
-            
-            <h1>truffaut&nbsp;&nbsp;//&nbsp;&nbsp;portfolio</h1>
-
+            <header>
+            <h1>Roberts&nbsp;&nbsp;//&nbsp;&nbsp;portfolio</h1>
+            </header>
 <!-- NAVIGATION BAR -->        
         <!-- Wrap the unordered list of links in a nav element -->
-        
+                <nav>
         <!-- Add the image "patricia-frost-125-edited-medium.jpg" right before the opening <ul> tag of the nav. Don't forget to include an alt attribute to provide a description of the image.-->
+                <img src="patricia-frost-125-edited-medium.jpg" alt="Patricia Frost">
                 <ul>
                     <li><a href="letter-markup">Letter Markup</a></li>
                     <li><a href="planets-table">Planets Table</a></li>
@@ -28,21 +29,22 @@
                     <li><a href="school-site">School Site</a></li>
                     <li><a href="blog">Blog</a></li>
                 </ul>
-        
+                
         <!-- Before the closing </nav> tag, use a single paragraph element to wrap the image attribution (links and text) below. -->
-        
+                    <p>
                     <a href="https://www.flickr.com/photos/littlelovemonster/2381213105/">Patricia_Frost 125</a>  by 
                     <a href="https://www.flickr.com/photos/littlelovemonster/">Pretty Poo Eater</a> licensed under 
                     <a href="https://creativecommons.org/licenses/by-sa/2.0/legalcode">CC BY SA 2.0</a>
-        
+                    </p>
+                </nav>
 <!-- MAIN CONTENT AREA -->        
-        
+               <main>
         <!-- Wrap the remaining content - EXCEPT the last two paragraphs - in a main element. -->
         
         <!-- SECTION -->
         
             <!-- Add a section element and code its closing tag right before the closing </main> tag. -->  
-        
+                <section>
             <!-- ARTICLE 1 -->
         
                 <!-- Create an article. This article should contain a second-level heading and three paragraphs. -->
@@ -63,8 +65,9 @@
                     <p>Lyft readymade chia, echo park seitan schlitz health goth. Kale chips cloud bread photo booth church-key air plant. Four loko etsy actually shabby chic. Brunch drinking vinegar fingerstache plaid +1 selfies thundercats. Kombucha fingerstache disrupt lo-fi pour-over actually. Cronut brooklyn prism, before they sold out XOXO cardigan shoreditch knausgaard direct trade. Synth fashion axe slow-carb heirloom air plant.</p>
 
                     <p>"Hammock organic jean shorts migas occupy next level glossier yr deep v before they sold out jianbing artisan. Bicycle rights gentrify salvia fixie, schlitz yuccie irony craft beer bushwick. Live-edge austin hammock pinterest actually readymade."</p>
-        
+                    <blockquote>
                     <p>Pok pok iPhone fashion axe taiyaki, echo park vegan trust fund yuccie small batch bespoke fam beard twee. Seitan actually forage, fanny pack hell of hexagon vaporware. Gluten-free <em>flexitarian cornhole gentrify</em> skateboard keytar. Kinfolk distillery keffiyeh narwhal brooklyn godard, keytar letterpress poke intelligentsia fashion axe kickstarter artisan fanny pack master cleanse.</p>
+                    </blockquote>
                 </article>
             <!-- ARTICLE 3 -->
         
@@ -78,33 +81,38 @@
                     <p>Mlkshk kitsch cloud bread air plant, chia heirloom you probably haven't heard of them godard af distillery authentic pinterest iPhone copper mug. Edison bulb sriracha chillwave ramps distillery. Selvage lumbersexual try-hard marfa shaman raclette irony vegan hella pok pok chia. Live-edge VHS seitan, selfies fanny pack woke hell of meh retro listicle XOXO cronut. Occupy forage palo santo post-ironic farm-to-table. Godard church-key salvia four dollar toast glossier palo santo cliche.</p>
                 </article>
         <!-- ASIDE -->
-        
+                <aside>
             <!-- Create an image bar using an aside element. The aside element should contain two figures.-->
             
                 <!-- FIGURE 1 -->
-        
+                <figure class="fig-1">
                     <!-- Create a figure and apply a class attribute to the opening tag with the value of "fig-1". This figure should contain an image and a figcaption. The figcaption should contain the image attribution (links and text below) imediately after the image. -->      
 
                         <!-- Add the image "puddle-1-medium.jpg" to the figure. Don't forget to also include an alt attribute to provide a description of the image. -->
-                        
+                        <img src="puddle-1-medium.jpg" alt="a puddle">
                         <!-- Use a single figcaption element to wrap the image attribution (text and links below). -->
-        
+                    <figcaption>
                         <a href="https://www.flickr.com/photos/eosmaiajohanna/16418452630/">Puddle</a> by 
                         <a href="https://www.flickr.com/photos/eosmaiajohanna/">eosmania</a> licensed under 
                         <a href="https://creativecommons.org/licenses/by/2.0/legalcode">CC BY 2.0</a>
-
+                    </figcaption>
+                </figure>
                 <!-- FIGURE 2 -->
-        
+                <figure class="fig-2">
                     <!-- Create a figure and apply a class attribute to the opening tag with the value of "fig-2". -->
                         
                         <!-- Add the image "puddle-2-medium.jpg" to the figure. Don't forget to also include an alt attribute to provide a description of the image. -->
-                        
+                        <img src="puddle-2-medium.jpg" alt="a puddle">
                         <!-- Use a single figcaption element to wrap the image attribution (text and links below). --> 
-                            
+                
+                    <figcaption>
                         <a href="https://www.flickr.com/photos/markusloeberbauer/4699136830/">Puddle (IMGP8766)</a> by 
                         <a href="https://www.flickr.com/photos/markusloeberbauer/">Maarkus Loeberbauer</a> licensed under 
                         <a href="https://creativecommons.org/licenses/by-sa/2.0/legalcode">CC BY SA 2.0</a>
-                    
+                    </figcaption>
+                </figure>
+                </aside>
+                
 <!-- FOOTER -->                        
         
         <!-- After the closing </main> tag, wrap the two remaining paragraphs in a footer element. -->    
@@ -116,9 +124,12 @@
             <!-- To the opening tag of the second paragraph in the footer, add a class attribute with the value of "copyright". -->   
         
             <!-- Using the text "C.E. Truffaut" create an email hyperlink for the email address "ce.truffaut@cwu.edu". --> 
-        
+     </section>
+        </main>
+        <footer class="return">
             <p>Back to top</p>
-            <p>&copy; 2020 C.E. Truffaut</p>
+            <p class="copyright">&copy; <a href="ce.truffaut@cwu.edu">2020 C.E. Truffaut</a></p>
+        </footer>
         
     </body>
 </html>
