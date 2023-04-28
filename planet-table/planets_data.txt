@@ -40,7 +40,7 @@ Terrestial planets
             0
 
     Earth 
-            5.97 
+            c 
             12,756 
             5514 
             9.8 
