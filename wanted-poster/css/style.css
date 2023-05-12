@@ -84,7 +84,7 @@ margin: 0;
 text-transform: uppercase;}
 
 h4 {font-size: 1.5rem;
-color: black;
+color: darkred;
 letter-spacing: .25rem;
 padding-bottom: 1.125rem;
 font-weight: normal;
@@ -137,7 +137,7 @@ text-align: right;}
 /* Footer */
 
 footer {padding: 1rem;
-width: 32px;
+width: 2rem;
 font-style: normal;
 color: #333;}
 
