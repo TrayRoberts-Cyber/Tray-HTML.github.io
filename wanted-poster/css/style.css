@@ -65,15 +65,61 @@ h1 {
     text-align:center;
 }
 
+h2 {font-size: 3rem;
+letter-spacing: .375rem;}
+
+h3 {font-size: 2rem; 
+font-weight: normal;
+color: black;}
+
+h4 {font-size: 1.5rem;
+font-weight: normal;
+color: black;
+letter-spacing: .25rem;
+padding-bottom: 1.125rem;
+font-weight: normal;}
+
+h5 {font-size: 1rem;
+margin-top:.25rem; 
+padding:.5rem;
+font-weight: normal;
+background-color: #333;
+color: #fff }
+
+
+
 
 /* Section & Paragraph */
+section{margin-top: .5rem;}
 
+p {margin-top: 1rem;
+margin-bottom: 1rem;
+margin-left: auto;
+margin-right: auto;
+padding-top: 0rem;
+padding-bottom: 0rem;
+padding-left: 1rem;
+padding-right: 1rem;
+width: 90%;
+text-align: left;}
 
 
 /* Image & Figure */
+img {width: 100%;
+margin-top: 0rem;
+margin-bottom: 0rem;
+max-width:50rem; }
 
+figure {margin-bottom: 2rem;}
+
+figcaption {padding-top:.5rem;
+text-align: right;}
 
 
 /* Footer */
 
+footer {padding: 1rem;
+width: 2rem;
+style: solid;
+color: #333;}
 
