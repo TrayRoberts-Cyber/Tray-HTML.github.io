@@ -73,7 +73,6 @@ font-weight: normal;
 color: black;}
 
 h4 {font-size: 1.5rem;
-font-weight: normal;
 color: black;
 letter-spacing: .25rem;
 padding-bottom: 1.125rem;
@@ -120,6 +119,6 @@ text-align: right;}
 
 footer {padding: 1rem;
 width: 2rem;
-font-style: solid;
+font-style: normal;
 color: #333;}
 
