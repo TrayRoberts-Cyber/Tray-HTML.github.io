@@ -47,16 +47,119 @@
 
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
+
+@font-face {font-family: 'customfont';
+    src: url('fonts/sans-serif/lato-regular.ttf') format('truetype');
+    font-weight: normal;
+}
 .title{
     text-align: center;
 font-size: 3.75rem; 
 margin: 1.125rem;
 letter-spacing: 0.125rem;
-font-family: Josefinslab;
+font-family:'sans-serif', lato;
+text-shadow: 1px 1px;
+transform: rotate(-7deg);
+font-size:35px;
+color:black;
+padding:10px;
+}
+
+.tongue{
+    background-color:red;
 }
 
 nav{
     text-align: left;
-    margin:40px;
+    margin:80px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    font-size:30px;
+    word-spacing: 100px;
+    padding:25px;
+    
+    
+    
 }
 
+a{
+    text-decoration:none;
+    color: rgba(10, 29, 240, 0.331);
+    font-family:Monospace;
+    
+}
+
+aside{
+    float:right;
+    border-left:1.5px solid black;
+    bottom:1000px;
+    right:-30px;
+    padding-top:100px;
+    padding:100px;
+    margin-bottom:80px;
+    position:relative;
+}
+
+aside p{
+    column-count:1;
+    column-gap:20px;
+    border-top:1.5px solid black;
+    padding-top: 20px;
+}
+
+.subsection img{
+    float:left;
+    margin-right:10px;
+    padding-left:-60px;
+    
+}
+
+.main-section{
+    text-align:left;
+    column-count:1;
+    column-gap:20px;
+    
+    
+}
+
+img{
+    width: 300px;
+    height: 400px;
+}
+p{
+    max-width:900px;
+    font-family:lato;
+}
+
+.article-image{
+    float:left;
+}
+h2{
+    text-align:left;
+    margin-bottom:-10px;
+    margin-left:30px;
+}
+
+footer p{
+    float:left;
+    bottom:1000px;
+    position:relative;
+    left: 1200px;
+    text-align:right;
+   
+   
+}
+
+button{
+    position:relative;
+    bottom:-500px;
+    right:900px;
+}
+
+ .blog{
+    transform: rotate(-4deg);
+}
+
+footer{
+    
+}
