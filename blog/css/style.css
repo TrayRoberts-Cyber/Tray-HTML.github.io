@@ -47,8 +47,8 @@
 
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
-h1 {
+.title{
     text-align:center;
-    float: inline-start;
+    
 }
 
