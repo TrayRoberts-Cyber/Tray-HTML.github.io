@@ -49,5 +49,6 @@
 /* ------ START WRITING YOUR CODE BELOW ------ */
 h1 {
     text-align:center;
+    float: right;
 }
 
