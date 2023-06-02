@@ -98,12 +98,12 @@ text-transform: uppercase;}
 h5 {font-size: 1rem;
 margin-top:.25rem; 
 padding:.5rem;
-font-weight: normal;
 background-color: #333;
 color: #fff; 
-font-family:'Alfa Slab One', Garamond, serif;
 text-align:center;
-text-transform: uppercase;}
+font-weight: normal;
+}
+
 
 
 
@@ -138,7 +138,7 @@ text-align: right;}
 /* Footer */
 
 footer {padding: 1rem;
-width: 2rem;
+width: 48rem;
 font-style: normal;
 color: #333;}
 
