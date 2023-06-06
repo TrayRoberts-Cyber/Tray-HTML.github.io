@@ -60,9 +60,9 @@ letter-spacing: 0.125rem;
 font-family:'sans-serif', lato;
 text-shadow: 1px 1px;
 transform: rotate(-7deg);
-font-size:35px;
+font-size:2.1875rem;
 color:black;
-padding:10px;
+padding:0.625rem;
 }
 
 .tongue{
@@ -71,12 +71,12 @@ padding:10px;
 
 nav{
     text-align: left;
-    margin:80px;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
-    font-size:30px;
-    word-spacing: 100px;
-    padding:25px;
+    margin:5rem;
+    border-bottom: 0.0625rem solid black;
+    border-top: 0.0625rem solid black;
+    font-size:1.875rem;
+    word-spacing: 6.25rem;
+    padding:1.5625rem;
     
     
     
@@ -92,42 +92,65 @@ a{
 aside{
     float:right;
     border-left:1.5px solid black;
-    bottom:1000px;
-    right:-30px;
-    padding-top:100px;
-    padding:100px;
-    margin-bottom:80px;
+    bottom:56.25rem;
+    padding-top:6.25rem;
+    padding:6.25rem;
+    margin-bottom:15.625rem;
     position:relative;
+    padding-left:3.125rem;
+    height:100rem;
+    padding-bottom:-12.5rem;
+    right:6.25rem;
+    bottom:66.25rem;
+    width:15.625rem;
+    left:-18.75rem;
+    
+    
+    
 }
 
 aside p{
     column-count:1;
-    column-gap:20px;
+    column-gap:1.25rem;
     border-top:1.5px solid black;
-    padding-top: 20px;
+    padding-top: 1.25rem;
+    width:31.25rem;
+    
 }
 
 .subsection img{
     float:left;
-    margin-right:10px;
-    padding-left:-60px;
-    
+    margin-right: 0rem;
+    padding-left:1.25rem;
+    width:21.875rem;
+}
+figcaption{
+   text-align:center;
 }
 
 .main-section{
     text-align:left;
     column-count:1;
-    column-gap:20px;
+    column-gap:1.25rem;
+    margin-left:9.375rem;
     
+    
+    
+    
+}
+.main-paragraphs{
+    width:75rem;
+    right:12.5rem;
+    font-size:large;
     
 }
 
 img{
-    width: 300px;
-    height: 400px;
+    width: 18.75rem;
+    height: 25rem;
 }
 p{
-    max-width:900px;
+    
     font-family:lato;
 }
 
@@ -136,15 +159,16 @@ p{
 }
 h2{
     text-align:left;
-    margin-bottom:-10px;
-    margin-left:30px;
+    margin-bottom:-0.625rem;
+    margin-left:11.5625rem;
+    
 }
 
 footer p{
     float:left;
-    bottom:1000px;
+    bottom:68.75rem;
     position:relative;
-    left: 1200px;
+    left: 75rem;
     text-align:right;
    
    
@@ -152,8 +176,9 @@ footer p{
 
 button{
     position:relative;
-    bottom:-500px;
-    right:900px;
+    bottom:-31.25rem;
+    right:62.5rem;
+   font-size:2.5rem;
 }
 
  .blog{
