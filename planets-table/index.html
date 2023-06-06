@@ -22,37 +22,42 @@
                     </caption>
                 <!-- The second child of the table element should be the colgroup element, which also contains several col elements, and helps define the purpose of the table colums. -->
                     <colgroup>
-                        <col>
-                        <col>
-                        <col>
-                        <col>
-                        <col>
-                        <col>
-                        <col>
-                        <col>
-                        <col>
-                        <col>
+                        <col title="header">
+                        <col title="Mercury">
+                        <col title="Venus">
+                        <col title="Earth">
+                        <col title="Mars">
+                        <col title="Jupiter">
+                        <col title="Saturn">
+                        <col title="Uranus">
+                        <col title="Neptune">
+                        <col title="Pluto">
                     </colgroup>
                 <!-- The table head element should be the third child of the table element; it will wrap the code and content to define a row of column headers. -->    
                     <theader>
                         <tr>
-                            <td>Name</td>
-                            <td>Mass</td>
-                            <td>Diameter</td>
-                            <td>Density</td>
-                            <td>Gravity</td>
-                            <td>Length of day</td>
-                            <td>Distance from sun</td>
-                            <td>Mean temperature</td>
-                            <td>Number of Moons</td>
-                            <td>Notes</td>
-                            <td>Image</td>
+                            <td></td>
+                            <td></td>
+                            <td scope="col">Name</td>
+                            <td scope="col">Mass</td>
+                            <td scope="col">Diameter</td>
+                            <td scope="col">Density</td>
+                            <td scope="col">Gravity</td>
+                            <td scope="col">Length of day</td>
+                            <td scope="col">Distance from sun</td>
+                            <td scope="col">Mean temperature</td>
+                            <td scope="col">Number of Moons</td>
+                            <td scope="col">Notes</td>
+                            <td scope="col">Image</td>
                         </tr>
                     </theader>
                 <!-- The fourth child of the table element should be the table body element, which will contain the code and content to display rows of data. -->
                     <tbody>
+
+
                         <tr>
-                            <td>Mercury</td>
+                            <td rowspan="4">Terrestial planets</td>
+                            <td colspan="2">Mercury</td>
                             <td>0.330</td>
                             <td>4,879</td>
                             <td>5427</td>
@@ -62,10 +67,10 @@
                             <td>167</td>
                             <td>0</td>
                             <td>Closest to the Sun</td>
-                            <td><img src="images/mercury.jpg" alt="image of mercury here"></td>
+                            <td><img src="images/mercury.jpg" alt="image of mercury here" title="Mercury"></td>
                         </tr>
                         <tr>
-                            <td>Venus</td>
+                            <td colspan="2">Venus</td>
                             <td>4.87</td>
                             <td>12,104</td>
                             <td>5243</td>
@@ -75,10 +80,10 @@
                             <td>464</td>
                             <td>0</td>
                             <td></td>
-                            <td><img src="images/venus.jpg" alt="image of venus here"></td>
+                            <td><img src="images/venus.jpg" alt="image of venus here" title="Venus"></td>
                         </tr>
                         <tr>
-                            <td>Earth</td>
+                            <td colspan="2">Earth</td>
                             <td>I accidentally deleted it</td>
                             <td>12,756</td>
                             <td>5514</td>
@@ -88,10 +93,10 @@
                             <td>15</td>
                             <td>1</td>
                             <td> Our world</td>
-                            <td><img src="images/earth.png" alt="image of earth here"></td>
+                            <td><img src="images/earth.png" alt="image of earth here" title="Earth"></td>
                         </tr>
                         <tr>
-                            <td>mars</td>
+                            <td colspan="2">mars</td>
                             <td>0.642</td>
                             <td>6,792</td>
                             <td>3933</td>
@@ -101,9 +106,11 @@
                             <td>-65</td>
                             <td>2</td>
                             <td>The red planet</td>
-                            <td><img src="images/mars.jpg" alt="image of mars here"></td>
+                            <td><img src="images/mars.jpg" alt="image of mars here" title="Mars"></td>
                         </tr>
                         <tr>
+                            <td rowspan="4">Jovian planets</td>
+                            <td rowspan="2">gas giants</td>
                             <td>Jupiter</td>
                             <td>1898</td>
                             <td>142,984</td>
@@ -114,7 +121,7 @@
                             <td>-110</td>
                             <td>67</td>
                             <td>The largest planet</td>
-                            <td><img src="images/jupiter.jpg" alt="image of earth here"></td>
+                            <td><img src="images/jupiter.jpg" alt="image of earth here" title="Jupiter"></td>
                         </tr>
                         <tr>
                             <td>Saturn</td>
@@ -127,9 +134,10 @@
                             <td>-140</td>
                             <td>62</td>
                             <td></td>
-                            <td><img src="images/saturn.jpg" alt="image of saturn here"></td>
+                            <td><img src="images/saturn.jpg" alt="image of saturn here" title="Saturn"></td>
                         </tr>
                         <tr>
+                            <td rowspan="2">Ice giants</td>
                             <td>Uranus</td>
                             <td>86.8</td>
                             <td>51,118</td>
@@ -140,7 +148,7 @@
                             <td>-195</td>
                             <td>27</td>
                             <td></td>
-                            <td><img src="images/uranus.jpg" alt="image of uranus here"></td>
+                            <td><img src="images/uranus.jpg" alt="image of uranus here" title="Uranus"></td>
                         </tr>
                         <tr>
                             <td>Neptune</td>
@@ -153,10 +161,11 @@
                             <td>-200</td>
                             <td>14</td>
                             <td></td>
-                            <td><img src="images/neptune.jpg" alt="image of neptune here"></td>
+                            <td><img src="images/neptune.jpg" alt="image of neptune here" title="Neptune"></td>
                         </tr>
                         <tr>
-                            <td>Pluto</td>
+                            <td rowspan="2">Dwarf planets</td>
+                            <td colspan="2">Pluto</td>
                             <td>0.0146</td>
                             <td>2,370</td>
                             <td>2095</td>
@@ -166,7 +175,7 @@
                             <td>-225</td>
                             <td>5</td>
                             <td>Declassified as a planet in 2006, but this <a href="http://www.usatoday.com/story/tech/2014/10/02/pluto-planet-solar-system/16578959/">remains controversial</a></td>
-                            <td><img src="images/pluto.jpg" alt="image of pluto here"></td>
+                            <td><img src="images/pluto.jpg" alt="image of pluto here" title="Pluto"></td>
                         </tr>
                     </tbody>
                 <!-- Please note that you do NOT need to add a table footer for this assignment. -->
